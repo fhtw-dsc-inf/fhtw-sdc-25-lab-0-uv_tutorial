@@ -1,0 +1,38 @@
+%%writefile mini_uv_project/.gitignore
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distributions / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Test / coverage / cache
+.tox/
+.nox/
+.pytest_cache/
+.coverage*
+htmlcov/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environments
+.venv/
+venv/
+ENV/
+.env
+
+# macOS
+.DS_Store
+
+# uv
+# Keep uv.lock if you want reproducible installs for apps; ignore for libraries if desired
+# uv.lock
